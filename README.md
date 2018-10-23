@@ -11,7 +11,7 @@ Search Type | Command Line Entry | Search Results
 Concert | node liri.app concert-this [artist name] | Date, Venue, Location
 Song | node liri.app spotify-this-song [song and/or artist name] | Artist, Song, Album, Preview
 Movie | node liri.app movie-this [movie name] | Title, Year, IMDB Rating, Rottom Tomatoes Rating, Country, Language, Plot, Actors
-From File | node liri.app do-what-it-says
+From File | node liri.app do-what-it-says | Song search results for "I want it that way"
 
 ## Built With
 
