@@ -12,13 +12,24 @@ const nodeArgs = process.argv;
 
 // define search term string from process.argv input
 let input = "";
+let connector = "";
+
+// use different search term connector depending on type of search
+if (command === "concert-this"){
+    connector = "+";
+} else {
+    connector = " ";
+}
+
 for (var i = 3; i < nodeArgs.length; i++){
     if (i > 3 && i < nodeArgs.length){
-        input = `${input}+${nodeArgs[i]}`;
+        input = `${input}${connector}${nodeArgs[i]}`;
     } else {
         input += nodeArgs[i];
     }
 }
+
+console.log(input);
 
 // run API search function depending on command given
 switch(command) {
@@ -26,7 +37,7 @@ switch(command) {
         searchBands(input);
         break;
     case "spotify-this-song":
-        searchSpotify(input, "");
+        searchSpotify(input);
         break;
     case "movie-this":
         searchMovies(input);
@@ -87,16 +98,43 @@ function searchBands(input){
                 } else {
                     console.log(`Location: ${eventInfo.venue.city}, ${eventInfo.venue.region}`);
                 }               
-                console.log("\n");
+                console.log(`**************************************************\n`);
             }
         }
     })
 }
 
-function searchSpotify(input, artists){
+function searchSpotify(input){
 
-// include API keys from .env file
-//var spotify = new Spotify(keys.spotify);
+    logMsg(`Searching for ${input} on Spotify`);
+    
+    var Spotify = require('node-spotify-api');
+
+    var spotify = new Spotify({
+        id: keys.spotify.id,
+        secret: keys.spotify.secret
+    });
+
+    spotify
+        .search({ type: "track", query: `${input}`})
+        .then(function(response){
+            console.log(response.tracks.items[0]);
+            for (song in response.tracks.items){
+                const songInfo = response.tracks.items[song];
+                console.log(`***********************************************`);
+                console.log(`Artist(s): ${songInfo.artists[0].name}`);
+                console.log(`Song: ${songInfo.name}`);
+                console.log(`Album: ${songInfo.album.name}`);
+                console.log(`Preview: ${songInfo.preview_url}`);
+                console.log(`***********************************************`);
+            }
+        })
+        .catch(function(err){
+            console.log(err);
+        });
+    
+    
+        
 }
 
 function searchMovies(input){

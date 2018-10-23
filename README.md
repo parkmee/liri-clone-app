@@ -9,7 +9,7 @@ Use the following command line entries in your terminal to search for concerts, 
 Search Type | Command Line Entry
 ----------- | ------------------
 Concert | node liri.app concert-this [artist name]
-Song | node liri.app spotify-this-song [song name]
+Song | node liri.app spotify-this-song [song name] [artist name(optional)]
 Movie | node liri.app movie-this [movie name]
 From File | node liri.app do-what-it-says
 
@@ -21,6 +21,7 @@ From File | node liri.app do-what-it-says
 * NPM Packages
     * MomentJS
     * Request
+    * Node-Spotify-API
 * APIs
     * Bands in Town
     * Spotify
