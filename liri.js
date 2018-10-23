@@ -20,6 +20,7 @@ for (var i = 3; i < nodeArgs.length; i++){
     }
 }
 
+// run API search function depending on command given
 switch(command) {
     case "concert-this":
         searchBands(input);
@@ -38,11 +39,17 @@ switch(command) {
         break;
 }
 
+// search for events by artist using Bands in Town
 function searchBands(input){
+
+    // log message to text file
     logMsg(`Searching Bands in Town for ${input}`);
 
+    // refer to installed npm packages
     const request = require("request");
     const moment = require("moment");
+
+    // set API search paramters
     const queryUrl = `https://rest.bandsintown.com/artists/${input}/events?app_id=${keys.bands.apikey}`;
     
     const options = {
@@ -54,9 +61,12 @@ function searchBands(input){
         }
     }
 
+    // use request npm to retrieve event info for a given input (artist)
     request(options, function(error, response, body){
+
+        // if error exists, log error
         if(error != null){
-            console.log("error: "+error);
+            console.log(`Error: ${error}`);
             logMsg(`Error: ${error}`);
         } else {
             const bandInfo = JSON.parse(body);
@@ -66,7 +76,11 @@ function searchBands(input){
                 console.log(`********************${date}********************`);
                 console.log(`Artist: ${eventInfo.lineup[0]}`);
                 console.log(`Venue: ${eventInfo.venue.name}`);
-                console.log(`Location: ${eventInfo.venue.city}, ${eventInfo.venue.region}`);
+                if (eventInfo.venue.region === ""){
+                    console.log(`Location: ${eventInfo.venue.city}, ${eventInfo.venue.country}`);
+                } else {
+                    console.log(`Location: ${eventInfo.venue.city}, ${eventInfo.venue.region}`);
+                }               
                 console.log("\n");
             }
         }
