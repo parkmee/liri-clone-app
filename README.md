@@ -6,23 +6,14 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
 Use the following command line entries in your terminal to search for concerts, movie info, and song info using this LIRI bot. Names of artists, songs, or movies do not need to be in quotes. An incorrect command will return command line entry syntax for you in the console.
 
+Successfully executed searches will output results in the console and log.txt file. See sample outputs of each type of search and [invalid responses](https://raw.githubusercontent.com/parkmee/liri-clone-app/master/images/invalid-command.PNG) here and below in the table.
+
 Search Type | Command Line Entry | Search Results
 ----------- | ------------------ | --------------
-Concert | node liri.app concert-this [artist name] | Date, Venue, Location
-Song | node liri.app spotify-this-song [song and/or artist name] | Artist, Song, Album, Preview
-Movie | node liri.app movie-this [movie name] | Title, Year, IMDB Rating, Rottom Tomatoes Rating, Country, Language, Plot, Actors
-From File | node liri.app do-what-it-says | Song search results for "I want it that way"
-
-Successfully executed searches will output results in the console and log.txt file. Sample outputs of each type of search and invalid responses can be seen in the below screenshots.
-
-## Example Outputs
-Click a link below to see screenshots of typical search results
-
-* [Concert search using Bands in Town](/images/bands-in-town-search.png)
-* [Song search using Spotify](/images/spotify-search.png)
-* [Movie search using OMDB](/images/omdb-search.png)
-* [Search from file](/images/search-from/file.png)
-* [Invalid search](/images/invalid-command.png)
+[Concert](https://raw.githubusercontent.com/parkmee/liri-clone-app/master/images/bands-in-town-search.PNG) | node liri.app concert-this [artist name] | Date, Venue, Location
+[Song](https://raw.githubusercontent.com/parkmee/liri-clone-app/master/images/spotify-search.PNG) | node liri.app spotify-this-song [song and/or artist name] | Artist, Song, Album, Preview
+[Movie](https://raw.githubusercontent.com/parkmee/liri-clone-app/master/images/omdb-search.PNG) | node liri.app movie-this [movie name] | Title, Year, IMDB Rating, Rottom Tomatoes Rating, Country, Language, Plot, Actors
+[From File](https://raw.githubusercontent.com/parkmee/liri-clone-app/master/images/search-from-file.PNG) | node liri.app do-what-it-says | Song search results for "I want it that way"
 
 ## Built With
 
