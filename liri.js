@@ -70,12 +70,23 @@ function searchBands(input){
             logMsg(`Error: ${error}`);
         } else {
             const bandInfo = JSON.parse(body);
+
+            // for each scheduled concert
             for (event in bandInfo) {
+
                 const eventInfo = bandInfo[event];
+                // log event info
+                logMsg(eventInfo);
+
+                // set date format
                 const date = moment(eventInfo.datetime).format("MM/DD/YYYY");
+
+                // print event info in console log
                 console.log(`********************${date}********************`);
                 console.log(`Artist: ${eventInfo.lineup[0]}`);
                 console.log(`Venue: ${eventInfo.venue.name}`);
+
+                // set location format for domestic (city, region) and international (city, country) events
                 if (eventInfo.venue.region === ""){
                     console.log(`Location: ${eventInfo.venue.city}, ${eventInfo.venue.country}`);
                 } else {
