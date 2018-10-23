@@ -16,11 +16,13 @@ From File | node liri.app do-what-it-says | Song search results for "I want it t
 Successfully executed searches will output results in the console and log.txt file. Sample outputs of each type of search and invalid responses can be seen in the below screenshots.
 
 ## Example Outputs
-[Concert search using Bands in Town](/images/bands-in-town-search.png)
-[Song search using Spotify](/images/spotify-search.png)
-[Movie search using OMDB](/images/omdb-search.png)
-[Search from file](/images/search-from/file.png)
-[Invalid search](/images/invalid-command.png)
+Click a link below to see screenshots of typical search results
+
+* [Concert search using Bands in Town](/images/bands-in-town-search.png)
+* [Song search using Spotify](/images/spotify-search.png)
+* [Movie search using OMDB](/images/omdb-search.png)
+* [Search from file](/images/search-from/file.png)
+* [Invalid search](/images/invalid-command.png)
 
 ## Built With
 
