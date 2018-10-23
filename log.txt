@@ -1,67 +1,49 @@
-Searching Bands in Town for lady+gaga
-12/28/2018,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-12/30/2018,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-01/19/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-12/31/2018,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-01/19/2019,Lady Gaga,LADY GAGA FULL LAS VEGAS EXPERIENCE: ENIGMA & JAZZ PIANO,Las Vegas,NV,United States
-01/17/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-01/20/2019,Lady Gaga,LADY GAGA JAZZ & PIANO,Las Vegas,NV,United States
-01/24/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-01/31/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-02/02/2019,Lady Gaga,LADY GAGA FULL LAS VEGAS EXPERIENCE: ENIGMA & JAZZ PIANO,Las Vegas,NV,United States
-02/03/2019,Lady Gaga,LADY GAGA JAZZ & PIANO,Las Vegas,NV,United States
-02/02/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-01/26/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-06/01/2019,Lady Gaga,LADY GAGA FULL LAS VEGAS EXPERIENCE: ENIGMA & JAZZ PIANO,Las Vegas,NV,United States
-05/30/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-06/02/2019,Lady Gaga,LADY GAGA JAZZ & PIANO,Las Vegas,NV,United States
-06/08/2019,Lady Gaga,LADY GAGA FULL LAS VEGAS EXPERIENCE: ENIGMA & JAZZ PIANO,Las Vegas,NV,United States
-06/08/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-06/09/2019,Lady Gaga,LADY GAGA JAZZ & PIANO,Las Vegas,NV,United States
-06/06/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-06/14/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-06/01/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-10/19/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-06/12/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-10/23/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-10/25/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-10/17/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-10/31/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-11/06/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-11/08/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-11/02/2019,Lady Gaga,LADY GAGA ENIGMA,Las Vegas,NV,United States
-Searching for lady gaga on Spotify
-Error: TypeError: Cannot read property '0' of undefined
-Searching for lady gaga on Spotify
-Lady Gaga,Shallow - Radio Edit,A Star Is Born Soundtrack (Without Dialogue),
-Lady Gaga,Always Remember Us This Way,A Star Is Born Soundtrack (Without Dialogue),
-Lady Gaga,Million Reasons,Joanne (Deluxe),
-Lady Gaga,Always Remember Us This Way,A Star Is Born Soundtrack,
-Lady Gaga,Shallow,A Star Is Born Soundtrack,
-Lady Gaga,Poker Face,The Fame,
-Lady Gaga,Bad Romance,The Fame Monster,
-Lady Gaga,The Cure,The Cure,
-Lady Gaga,Shallow,A Star Is Born Soundtrack,
-Lady Gaga,Look What I Found,A Star Is Born Soundtrack,
-Lady Gaga,I'll Never Love Again - Film Version - Radio Edit,A Star Is Born Soundtrack (Without Dialogue),
-Lady Gaga,Telephone,The Fame Monster,
-Lady Gaga,Always Remember Us This Way,A Star Is Born Soundtrack,
-Lady Gaga,Is That Alright?,A Star Is Born Soundtrack,
-Lady Gaga,Just Dance,The Fame,
-Lady Gaga,Music To My Eyes,A Star Is Born Soundtrack,
-Lady Gaga,Look What I Found,A Star Is Born Soundtrack (Without Dialogue),
-Lady Gaga,I'll Never Love Again - Film Version,A Star Is Born Soundtrack,
-Lady Gaga,Music To My Eyes,A Star Is Born Soundtrack (Without Dialogue),
-Lady Gaga,I'll Never Love Again - Extended Version,A Star Is Born Soundtrack,
-Searching OMDB for frozen
-When the newly-crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.
-Frozen,2013,7.5/10,90%,USA,English, Norwegian,Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad
-Searching OMDB for frozen
-When the newly-crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.,USA,English, Norwegian,Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad,When the newly-crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.
-Frozen,2013,7.5/10,90%
-Searching OMDB for frozen
-Frozen,2013
-7.5/10,90%,When the newly-crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.,USA,English, Norwegian,Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad,When the newly-crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.
-Searching OMDB for frozen
+Searching Bands in Town for tom+jones
+04/26/2019,Tom Jones,Empire Polo Club,Indio,CA,United States
+04/28/2019,Tom Jones,Empire Polo Club,Indio,CA,United States
+Searching for umbrella rihanna on Spotify
+Rihanna,Umbrella,Good Girl Gone Bad: Reloaded,
+Rihanna,Umbrella - Travis Barker Remix,Umbrella (Travis Barker Remix),
+Rihanna,Umbrella - Seamus Haji & Paul Emanuel,Good Girl Gone Bad: The Remixes,
+Rockabye Baby!,Umbrella,Lullaby Renditions of Rihanna,https://p.scdn.co/mp3-preview/ac3d941cf9d0822f2728613d16a9072ec64b5a23?cid=82cab705c1664eaf8724d11c14cb8687
+Rihanna,Umbrella - Radio Edit,Umbrella,
+Rihanna,Umbrella - Travis Barker Remix,Total Club Hits,
+Rihanna,Umbrella - Lindbergh Palace,Good Girl Gone Bad: The Remixes,
+Sweet Little Band,Umbrella,Rihanna for Babies,https://p.scdn.co/mp3-preview/6dff9724cae4ff07c9e29b50cc92e13657260dcb?cid=82cab705c1664eaf8724d11c14cb8687
+Rihanna,Umbrella - Jody den Broeder Lush Club Remix,Umbrella (Jody den Broeder Lush Club Remix),
+Rihanna,Umbrella - Seamus Haji & Paul Emanuel Club Remix,Umbrella (Seamus Haji & Paul Emanuel Club Remix),
+Lullaby Renditions,Umbrella,Lullaby Renditions of Rihanna,https://p.scdn.co/mp3-preview/316b501b704baffde1549f01e93c4dcd37a48d80?cid=82cab705c1664eaf8724d11c14cb8687
+Rihanna,Umbrella - The Lindbergh Palace Remix,Umbrella (The Lindbergh Palace Remix),
+Os Digitalistas,Umbrella,Bossa N' Rihanna,https://p.scdn.co/mp3-preview/d2d7f9aed208f0f9f2cde167015eedcf443b64fa?cid=82cab705c1664eaf8724d11c14cb8687
+lionel Cohen,Umbrella (Rihanna),Extracts From The Acoustic Sessions,https://p.scdn.co/mp3-preview/3452aaa090975c69dcb00d35acc2bb0345f3b5a7?cid=82cab705c1664eaf8724d11c14cb8687
+Sweet Little Band,Umbrella,Babies Go Rihanna,https://p.scdn.co/mp3-preview/6dff9724cae4ff07c9e29b50cc92e13657260dcb?cid=82cab705c1664eaf8724d11c14cb8687
+Judson Mancebo,Umbrella,Babies Love Rihanna,https://p.scdn.co/mp3-preview/dde363e458acb6069296f4b6ffd737a09c9bdf10?cid=82cab705c1664eaf8724d11c14cb8687
+Sweet Little Band,Umbrella,Rihanna para Bebés,https://p.scdn.co/mp3-preview/10e957fc5a6b1482a6a0417cfafa150776e55e19?cid=82cab705c1664eaf8724d11c14cb8687
+Silverlake String Quartet,Umbrella,Silverlake String Quartet Performs Rihanna,https://p.scdn.co/mp3-preview/14b635d92a6be048e37e2a89a0e612e33c59f47e?cid=82cab705c1664eaf8724d11c14cb8687
+Chillounga,Umbrella,Acoustic Lounge Unplugged: The Songs of Rihanna,https://p.scdn.co/mp3-preview/906db19d0046475393b9031d0869f7e7bd576859?cid=82cab705c1664eaf8724d11c14cb8687
+Zenyata,Umbrella,Dance Remix Diamonds: Best of Rihanna Cover Collection,https://p.scdn.co/mp3-preview/b56dc4b1b61ccc044f670754114833d6de5749c9?cid=82cab705c1664eaf8724d11c14cb8687
 Frozen,2013,USA,English, Norwegian,Kristen Bell, Idina Menzel, Jonathan Groff, Josh Gad
+Searching OMDB for frozen
 7.5/10,90%,When the newly-crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.
+You've entered an invalid command.
+Searching for "I Want it That Way" on Spotify
+Backstreet Boys,I Want It That Way,The Hits--Chapter One,https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=82cab705c1664eaf8724d11c14cb8687
+Backstreet Boys,I Want It That Way,Millennium,https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=82cab705c1664eaf8724d11c14cb8687
+Tyler and Mark,I Want It That Way,Beautiful Dreams,https://p.scdn.co/mp3-preview/99c791194bbd4e5f315ca8964babf0b69bc520b3?cid=82cab705c1664eaf8724d11c14cb8687
+Manuel Costa,I Want It That Way,I Want It That Way,https://p.scdn.co/mp3-preview/cdde86f49ca4ef217ac08bbbb0c6295c16f015b0?cid=82cab705c1664eaf8724d11c14cb8687
+Dynamite Boy,I Want It That Way,Punk Goes Pop,
+Anthem Lights,I Want It That Way,Covers Part IV,https://p.scdn.co/mp3-preview/4a163fbfa2dbbe4433f277e0e7395dca656364f5?cid=82cab705c1664eaf8724d11c14cb8687
+Backstreet Boys,I Want It That Way,90 Sweet 90s Hits!,https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=82cab705c1664eaf8724d11c14cb8687
+Glee Cast,Bye Bye Bye / I Want It That Way (Glee Cast Version),Bye Bye Bye / I Want It That Way (Glee Cast Version),https://p.scdn.co/mp3-preview/3aa63b5c98b98ae333e567813e5c720abb2914f0?cid=82cab705c1664eaf8724d11c14cb8687
+"Weird Al" Yankovic,Ebay (Parody of "I Want It That Way" by the Backstreet Boys),Poodle Hat,https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=82cab705c1664eaf8724d11c14cb8687
+Boyce Avenue,I Want It That Way,Cover Sessions, Vol. 2,https://p.scdn.co/mp3-preview/764f1dcb8c9a9cec099cc361cb388f931bf023d3?cid=82cab705c1664eaf8724d11c14cb8687
+Steel Panther,I Want It That Way,I Want It That Way,
+Landon Austin & Julia Sheer,I Want It That Way,I Want It That Way,https://p.scdn.co/mp3-preview/e777be5446dc3df34abc2eaec241edb5a590976c?cid=82cab705c1664eaf8724d11c14cb8687
+Scott Bradlee's Postmodern Jukebox,I Want It That Way,Selfies on Kodachrome,https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=82cab705c1664eaf8724d11c14cb8687
+Backstreet Boys,I Want It That Way,NKOTBSB,https://p.scdn.co/mp3-preview/adf2485de3f3f375593b5307a792e8d8e6f19794?cid=82cab705c1664eaf8724d11c14cb8687
+Scary Pockets,I Want It That Way,Nu Funk,https://p.scdn.co/mp3-preview/33685e005149d5e7d0199a764163ff77f7762e29?cid=82cab705c1664eaf8724d11c14cb8687
+"Weird Al" Yankovic,Ebay (Parody of "I Want It That Way" by the Backstreet Boys),The Essential "Weird Al" Yankovic,https://p.scdn.co/mp3-preview/5632d8e302d70afaa8f79c962aa4b2032a45b3ef?cid=82cab705c1664eaf8724d11c14cb8687
+Scott Bradlee's Postmodern Jukebox,I Want It That Way,PMJ Is For Lovers: The Love Song Collection,https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=82cab705c1664eaf8724d11c14cb8687
+Kyle Olthoff,I Want It That Way,I Want It That Way,https://p.scdn.co/mp3-preview/bb5d73d1bfe8a8b38cd5278112c7022599464c67?cid=82cab705c1664eaf8724d11c14cb8687
+#90s Update,I Want It That Way,#90s Update,https://p.scdn.co/mp3-preview/4722ade5be55bf642f5cc9578b94c092a0fcf3a7?cid=82cab705c1664eaf8724d11c14cb8687
+Backstreet Boys,I Want It That Way,NOW That's What I Call 90s Pop,https://p.scdn.co/mp3-preview/c9302062adf4f59e60335f30c7ca46b487a267fb?cid=82cab705c1664eaf8724d11c14cb8687
