@@ -137,13 +137,40 @@ function searchSpotify(input){
             })
             .catch(function(err){
                 console.log(err);
-                logMsg(err); // log error if it occurs
+                logMsg(`Error: ${err}`); // log error if it occurs
             });
     }
 }
 
+// search OMDB for movie info
 function searchMovies(input){
 
+    // define search parameters
+    const queryUrl = `http://www.omdbapi.com/?t=${input}&y=&plot=short&apikey=${keys.omdb.apikey}`
+    request(queryUrl,function(error, response, body){
+
+        // log message to text file
+        logMsg(`Searching OMDB for ${input}`);
+
+        if(input === "") {
+            searchMovies("Mr.+Nobody"); // if no input, run default search using Mr Nobody
+        } else if (error != null) {
+            console.log(error);
+            logMsg(`Error: ${error}`); // log an error message if an error is returned
+        } else {
+            // print movie info to log and console
+            const movieInfo = JSON.parse(body);
+            logMsg(movieInfo);
+            console.log(`Title: ${movieInfo.Title}`);
+            console.log(`Year: ${movieInfo.Year}`);
+            console.log(`IMDB Rating: ${movieInfo.Ratings[0].Value}`);
+            console.log(`Rottom Tomatoes Rating: ${movieInfo.Ratings[1].Value}`);
+            console.log(`Country: ${movieInfo.Country}`);
+            console.log(`Language: ${movieInfo.Language}`);
+            console.log(`Plot: ${movieInfo.Plot}`);
+            console.log(`Actors: ${movieInfo.Actors}`);
+        }
+    });
 }
 
 function searchFile(){
