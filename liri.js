@@ -104,37 +104,42 @@ function searchBands(input){
     })
 }
 
+// Search for songs using Spotify npm package
 function searchSpotify(input){
 
-    logMsg(`Searching for ${input} on Spotify`);
-    
-    var Spotify = require('node-spotify-api');
-
-    var spotify = new Spotify({
-        id: keys.spotify.id,
-        secret: keys.spotify.secret
-    });
-
-    spotify
-        .search({ type: "track", query: `${input}`})
-        .then(function(response){
-            console.log(response.tracks.items[0]);
-            for (song in response.tracks.items){
-                const songInfo = response.tracks.items[song];
-                console.log(`***********************************************`);
-                console.log(`Artist(s): ${songInfo.artists[0].name}`);
-                console.log(`Song: ${songInfo.name}`);
-                console.log(`Album: ${songInfo.album.name}`);
-                console.log(`Preview: ${songInfo.preview_url}`);
-                console.log(`***********************************************`);
-            }
-        })
-        .catch(function(err){
-            console.log(err);
-        });
-    
-    
+    if(input === "") {
+        // if no song/artist information is entered, search using a default song
+        searchSpotify("The Sign Ace of Base")
+    } else {
+        // log message to text file
+        logMsg(`Searching for ${input} on Spotify`);
         
+        // setup spotify npm package for use
+        var Spotify = require('node-spotify-api');
+        var spotify = new Spotify({
+            id: keys.spotify.id,
+            secret: keys.spotify.secret
+        });
+
+        spotify // search spotify using promise and log resopnse
+            .search({ type: "track", query: `${input}`})
+            .then(function(response){
+                for (song in response.tracks.items){
+                    const songInfo = response.tracks.items[song];
+                    logMsg(songInfo);
+                    console.log(`***********************************************`);
+                    console.log(`Artist(s): ${songInfo.artists[0].name}`);
+                    console.log(`Song: ${songInfo.name}`);
+                    console.log(`Album: ${songInfo.album.name}`);
+                    console.log(`Preview: ${songInfo.preview_url}`);
+                    console.log(`***********************************************`);
+                }
+            })
+            .catch(function(err){
+                console.log(err);
+                logMsg(err); // log error if it occurs
+            });
+    }
 }
 
 function searchMovies(input){
