@@ -4,7 +4,7 @@ require("dotenv").config();
 const request = require("request");
 const moment = require("moment");
 const keys = require("./key.js");
-const logFile = "./log.txt";
+const fs = require('fs');
 
 // label arguments in input array
 const command = process.argv[2];
@@ -29,10 +29,11 @@ for (var i = 3; i < nodeArgs.length; i++){
     }
 }
 
-console.log(input);
+runLiri(command, input);
 
-// run API search function depending on command given
-switch(command) {
+function runLiri(command, input) {
+    // run API search function depending on command given
+    switch(command) {
     case "concert-this":
         searchBands(input);
         break;
@@ -48,6 +49,7 @@ switch(command) {
     default:
         seeError(command, input);
         break;
+    }
 }
 
 // search for events by artist using Bands in Town
@@ -81,11 +83,13 @@ function searchBands(input){
             for (event in bandInfo) {
 
                 const eventInfo = bandInfo[event];
-                // log event info
-                logMsg(eventInfo);
-
+                
                 // set date format
                 const date = moment(eventInfo.datetime).format("MM/DD/YYYY");
+
+                // log event info
+                msgTxt = [date, eventInfo.lineup[0], eventInfo.venue.name, eventInfo.venue.city, eventInfo.venue.region, eventInfo.venue.country]
+                logMsg(msgTxt);
 
                 // print event info in console log
                 console.log(`********************${date}********************`);
@@ -126,7 +130,10 @@ function searchSpotify(input){
             .then(function(response){
                 for (song in response.tracks.items){
                     const songInfo = response.tracks.items[song];
-                    logMsg(songInfo);
+
+                    const msgTxt = [songInfo.artists[0].name, songInfo.name, songInfo.album.name, songInfo.preview_url];
+                    logMsg(msgTxt);
+
                     console.log(`***********************************************`);
                     console.log(`Artist(s): ${songInfo.artists[0].name}`);
                     console.log(`Song: ${songInfo.name}`);
@@ -160,7 +167,10 @@ function searchMovies(input){
         } else {
             // print movie info to log and console
             const movieInfo = JSON.parse(body);
-            logMsg(movieInfo);
+            const msgTxt1 = [movieInfo.Title, movieInfo.Year, movieInfo.Country, movieInfo.Language, movieInfo.Actors]
+            const msgTxt2 = [movieInfo.Ratings[0].Value, movieInfo.Ratings[1].Value, movieInfo.Plot]
+            logMsg(msgTxt1);
+            logMsg(msgTxt2);
             console.log(`Title: ${movieInfo.Title}`);
             console.log(`Year: ${movieInfo.Year}`);
             console.log(`IMDB Rating: ${movieInfo.Ratings[0].Value}`);
@@ -174,13 +184,29 @@ function searchMovies(input){
 }
 
 function searchFile(){
-
+    // setup fs package for use
+    fs.readFile("random.txt", "utf8", function(err, data) {
+        const fileInfo = data.split(",");
+        runLiri(fileInfo[0], fileInfo[1]);
+    })
 }
 
+// output an error message if an invalid command has been entered
 function seeError(command, input){
-
+    logMsg("You've entered an invalid command.");
+    console.log("You've entered an invalid command.");
+    console.log("Enter one of the following commands, replacing the text with a search string (no brackets or quotation marks needed):");
+    console.log("node liri.app concert-this [artist name]");
+    console.log("node liri.app spotify-this-song [song and/or artist name]");
+    console.log("node liri.app movie-this [movie name]");
+    console.log("node liri.app do-what-it-says");
 }
 
 function logMsg(message) {
-
+    const logFile = "./log.txt";
+    fs.appendFile(logFile, message + "\n", function(err) {
+        if (err != null) {
+            console.log("Error logging message to file");
+        }
+    });
 }
