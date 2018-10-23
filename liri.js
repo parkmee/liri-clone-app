@@ -1,10 +1,10 @@
 require("dotenv").config();
+
+// installed npm packages and external files
+const request = require("request");
+const moment = require("moment");
 const keys = require("./key.js");
-
 const logFile = "./log.txt";
-
-// include API keys from .env file
-//var spotify = new Spotify(keys.spotify);
 
 // label arguments in input array
 const command = process.argv[2];
@@ -45,13 +45,8 @@ function searchBands(input){
     // log message to text file
     logMsg(`Searching Bands in Town for ${input}`);
 
-    // refer to installed npm packages
-    const request = require("request");
-    const moment = require("moment");
-
     // set API search paramters
     const queryUrl = `https://rest.bandsintown.com/artists/${input}/events?app_id=${keys.bands.apikey}`;
-    
     const options = {
         url: queryUrl,
         method: "GET",
@@ -100,6 +95,8 @@ function searchBands(input){
 
 function searchSpotify(input, artists){
 
+// include API keys from .env file
+//var spotify = new Spotify(keys.spotify);
 }
 
 function searchMovies(input){
