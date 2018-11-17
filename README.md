@@ -32,7 +32,7 @@ Search Type | Command Line Entry | Search Results
 
 ## Links
 
-https://parkmee.github.io/liri-clone-app/
+[https://parkmee.github.io/liri-clone-app/](https://parkmee.github.io/liri-clone-app/)
 
 ## Authors
 
